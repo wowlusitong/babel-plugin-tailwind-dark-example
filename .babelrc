@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    ["tailwind-dark", {
+      "dark": {
+        "bg-white": "bg-black",
+        "border-gray-50": "border-gray-600",
+        "text-gray-900": "text-gray-200",
+        "bg-blue-600": "bg-blue-900",
+        "text-white": "text-gray-200"
+      }
+    }]
+  ]
+}
