@@ -11,6 +11,7 @@ class MyDocument extends Document {
       <Html>
         <Head />
         <body className="bg-white">
+          <title>babel-plugin-tailwind-dark</title>
           <Main />
           <NextScript />
         </body>
